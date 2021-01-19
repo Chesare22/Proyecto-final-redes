@@ -79,7 +79,7 @@ function Home() {
       </header>
       <main>
         {
-          siteConfig.customFields && siteConfig.customFields.team.length > 0 && (
+          siteConfig?.customFields?.team?.length > 0 && (
           <section className={styles.team}>
             <div className="container">
               <div className="row">
