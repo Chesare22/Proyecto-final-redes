@@ -1,6 +1,6 @@
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
+  title: 'Proyecto final RySC',
+  tagline: 'Inner Circle',
   url: 'https://chesare22.github.io',
   baseUrl: '/Proyecto-final-redes/',
   onBrokenLinks: 'throw',
@@ -10,7 +10,7 @@ module.exports = {
   projectName: 'Proyecto-final-redes', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'Proyecto final RySC',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
