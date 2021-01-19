@@ -1,6 +1,16 @@
 module.exports = {
   title: 'Proyecto final RySC',
   tagline: 'Inner Circle',
+  customFields:{
+    teamHeader: "Miembros del equipo",
+    team: [
+    "Diego Avila Morales",
+    "Cesar Alejandro González Ortega",
+    "Johan Caceres Quintal",
+    "Carlos Pool Quintal",
+    "Manuel Martin Rico"
+  ]
+  },
   url: 'https://chesare22.github.io',
   baseUrl: '/Proyecto-final-redes/',
   onBrokenLinks: 'throw',
@@ -19,15 +29,9 @@ module.exports = {
         {
           to: 'docs/',
           activeBasePath: 'docs',
-          label: 'Docs',
+          label: 'QoS',
           position: 'left',
-        },
-        {to: 'blog', label: 'Blog', position: 'left'},
-        {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
-          position: 'right',
-        },
+        }
       ],
     },
     footer: {

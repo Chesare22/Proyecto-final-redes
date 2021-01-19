@@ -59,7 +59,7 @@ function Home() {
   const {siteConfig = {}} = context;
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
+      title={`${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
@@ -72,23 +72,26 @@ function Home() {
                 styles.getStarted,
               )}
               to={useBaseUrl('docs/')}>
-              Ver más
+              Iniciar
             </Link>
           </div>
         </div>
       </header>
       <main>
-        {features && features.length > 0 && (
-          <section className={styles.features}>
+        {
+          siteConfig?.customFields?.team?.length > 0 && (
+          <section className={styles.team}>
             <div className="container">
               <div className="row">
-                {features.map((props, idx) => (
-                  <Feature key={idx} {...props} />
-                ))}
+                <div className="col col--12 text--center">
+                  <h2>{siteConfig.customFields.teamHeader}</h2>
+                  {siteConfig.customFields.team.map((student) => <p className={styles.student}>{student}</p>)}
+                </div>
               </div>
             </div>
           </section>
-        )}
+          )
+        }
       </main>
     </Layout>
   );
