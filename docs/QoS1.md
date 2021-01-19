@@ -11,3 +11,6 @@ La calidad del servicio es particularmente importante para el transporte de trá
 
 ### ¿Porque es necesario?
 La calidad de servicios comprende requerimientos en todos los aspectos de una conexión, tales como tiempo de respuesta de los servicios, pérdidas, ratio señal a ruido, diafonías, ecos, interrupciones, frecuencia de respuesta, niveles de sonido, entre otros. Una subcategoría de calidad de servicios de telefonía son los requerimientos de nivel de servicio, los cuales comprenden aspectos de una conexión relacionados con la capacidad y cobertura de una red, por ejemplo garantizar la probabilidad máxima de bloqueo y la probabilidad de interrupción.
+
+### Video
+[![QoS](http://img.youtube.com/vi/kAovc9QVf_s/0.jpg)](http://www.youtube.com/watch?v=kAovc9QVf_s "QoS")
