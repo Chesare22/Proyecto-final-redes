@@ -29,7 +29,7 @@ module.exports = {
         {
           to: 'docs/',
           activeBasePath: 'docs',
-          label: 'QoS',
+          label: 'QoS en una red de computadoras',
           position: 'left',
         }
       ],
