@@ -1,10 +1,10 @@
 ---
 id: QoS1
-title: ¿Que es la calidad de servicio(QoS)?
+title: ¿Qué es la calidad de servicio(QoS)?
 slug: /
 ---
 ### Significado
-La **calidad de servicio (QoS)** es el rendimiento promedio de una red de telefonía o de computadoras, particularmente el rendimiento visto por los usuarios de la red. Cuantitativamente mide la calidad de los servicios que son considerados en varios aspectos del servicio de red, tales como tasas de errores, ancho de banda, rendimiento, retraso en la transmisión, disponibilidad, fluctuación del retardo o jitter, etc.
+La **calidad de servicio (QoS)** es el rendimiento promedio de una red de telefonía o de computadoras, particularmente el rendimiento visto por los usuarios de la red. Cuantitativamente, para medir la calidad se toman en cuenta varios aspectos del servicio de red, tales como tasas de errores, ancho de banda, rendimiento, retraso en la transmisión, disponibilidad, fluctuación del retardo o jitter, etc.
 
 ![image](/img/doc_images/QoS1.jpg)
 
